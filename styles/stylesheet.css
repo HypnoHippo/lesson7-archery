@@ -119,14 +119,19 @@ nav a:visited, a:link {
   padding-bottom: 2rem;
 }
 
-.main-text a:visited, a:link {
+.main-text a:visited {
+  color: #ecb722;
+}
+
+.main-text a:link {
   color: #ecb722;
 }
 
 body {
   margin: 0;
-  background-color: rgba(68, 68, 68, 0.5);
+  background-color: rgba(68, 68, 68, 1);
   font-size: 1.0625rem;
+  color: white;
 }
 
 #logo {
@@ -165,4 +170,56 @@ h3 {
   font-family: Arial, sans-serif;
   font-weight: bold;
   font-size: 1.0625rem;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info h2, .info h3 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.info h3 {
+  text-decoration: underline;
+}
+
+.info {
+  background-color: #1b447f;
+}
+
+.key {
+  color: #ecb722;
+}
+
+.questions {
+  padding-top: 3rem;
+}
+
+.info a:visited, .info a:link {
+  color: #ecb722;
+}
+
+.info-link {
+  text-align: left;
+}
+
+#video {
+  padding-left: 26.25rem;
+  width: 35rem;
+  height: 19.6875rem;
+}
+
+.bio-text {
+  padding-left: 2rem;
+}
+
+tr {
+  background-color: #1b447f;
+}
+
+table {
+  border-collapse: collapse;
 }
