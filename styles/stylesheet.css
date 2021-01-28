@@ -120,11 +120,11 @@ nav a:visited, a:link {
 }
 
 .main-text a:visited {
-  color: #03a3df;
+  color: #89DCFB;
 }
 
 .main-text a:link {
-  color: #03a3df;
+  color: #89DCFB;
 }
 
 body {
@@ -196,7 +196,7 @@ h3 {
 }
 
 .info a:visited, .info a:link {
-  color: #03a3df;
+  color: #89DCFB;
 }
 
 .info-link {
